@@ -1,0 +1,32 @@
+*{
+
+  margin: 0;
+  padding: 0;
+}
+
+main{
+  width: 98vw;
+  height: 100vh;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 85px;
+  background-color: gray;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul li{
+  display: inline-block;
+}
+
+
+footer{
+  height: 200px;
+  background-color: grey;
+}
