@@ -1,10 +1,21 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>IFSP Campus Sao Joao da Boa Vista</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../src/styles/main.css">
+    <title>IFSP Campus Sao Joao da Boa Vista</title>
 </head>
 <body>
+
+    <nav class="navbar">
+            <ul>
+            <li><a href="../index.html" target="_self">Home</a></li>      
+            <li><a href="about.html" target="_self" >Sobre</a></li>
+            <li><a href="courses.html" target="_self">Cursos</a></li>
+            <li><a href="contact.html" target="_self">Contato</a></li>
+            </ul>
+    </nav>
+
     <header clas="title">
         <h1>IFSP Câmpus São João da Boa Vista</h1>
     </header>
@@ -53,14 +64,68 @@
     </main>
 
 
-
     <footer>
-        <table class="foot" style="border: black; border-style:solid; border-width: 4px 0px 1px">
-            <tr>
-                <td style="color: lightblue; font-size: 14px;">Registrado em <a href="https://www.sbv.ifsp.edu.br/sobre-campus/16-sobre" target="_blank" style ="color: lightblue; font-size: 14px; text-decoration:none; border-style: solid; background-color: gray;">Sobre</a></td>
-            </tr>
-        </table>
-    </footer>
+        <div class="topContainer">
+          <section class="logo">
+              <h1>IFSP</h1>
+          </section>
+          <section class="about">
+            <h2>SOBRE</h2>
+              <a href="#">Sobre nós</a><br>
+              <a href="#">Acessibilidade</a>
+          </section>
+          <section class="services">
+            <h2>SERVIÇOS</h2>
+            <nav>
+              <ul>
+                <li><a href="#" target="iframe">Como chegar</a></li>
+                <li><a href="#" target="iframe">Processos seletivos</a></li>
+                <li><a href="#" target="iframe">Calendários Acadêmicos</a></li>
+                <li><a href="#" target="iframe">Ouvidoria</a></li>
+              </ul>
+          </nav>
+          </section>
+          <section class="courses">
+            <h2>CURSOS</h2>
+              <nav>
+                <ul>
+                  <li><a href="./pages/iframes/courses/tecnicos.html" target="iframe">Técnicos</a></li>
+                  <li><a href="./pages/iframes/courses/tecnologias.html" target="iframe">Tecnologias</a></li>
+                  <li><a href="./pages/iframes/courses/engenharias.html" target="iframe">Engenharias</a></li>
+                  <li><a href="./pages/iframes/courses/licenciaturas.html" target="iframe">Licenciaturas</a></li>
+                  <li><a href="./pages/iframes/courses/bacharelados.html" target="iframe">Bacharelados</a></li>
+                  <li><a href="./pages/iframes/courses/posGraduacao.html" target="iframe">Pós-Graduação</a></li>
+                </ul>
+            </nav>
+          </section>
+          <section class="form">
+              <h2>PORTAL DE NOTICIAS</h2>
+                <form action="">
+                  <label for="name" class="sr-only">Insira seu Nome</label>
+                  <input type="text" name="name" placeholder="Insira seu Nome">
+  
+                  <label for="email" class="sr-only">Insira seu Email</label>
+                  <input type="email" name="email" placeholder="Insira seu Email">
+  
+                  <input type="submit" value="Assinar">
+                </form>
+          </section>
+  
+        </div>
+        <!-- bottom section -->
+        <section class="social-midias">
+          <div class="container">
+            <h4>©Instituto Federal de São Paulo</h4>
+            <div>
+                <a href="mailto:cra.sbv@ifsp.edu.br" target="_blank" ><img src="../src/images/iconMail.svg" alt=""></a>
+                <a href="https://www.youtube.com/c/ifspsbv" target="_blank" ><img src="../src/images/iconYoutube.svg" alt=""></a>
+                <a href="https://www.facebook.com/ifspsbv" target="_blank" ><img src="../src/images/iconFacebook.svg" alt=""></a>
+               
+            </div>
+          </div>
+           
+        </section>
+      </footer>
 
 </body>
 </html>

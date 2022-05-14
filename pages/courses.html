@@ -3,34 +3,155 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
+    <link rel="stylesheet" href="../src/styles/main.css">
+    <link rel="stylesheet" href="../src/styles/courses.css">
     <title>Cursos Oferecidos</title>
   </head>
   <body>
 
-    <nav>
-
+    <nav class="navbar">
+      <ul>
+      <li><a href="../index.html" target="_self">Home</a></li>      
+      <li><a href="about.html" target="_self" >Sobre</a></li>
+      <li><a href="courses.html" target="_self">Cursos</a></li>
+      <li><a href="contact.html" target="_self">Contato</a></li>
+      </ul>
     </nav>
 
-      <aside>
-          <nav>
+    <main>
+        <section>
+            <div class="card" id="engenharias">
+                
+                <div class="top">
+                  <a href="./subpages/courses/engenharias.html"></a>
+                </div>
+                <div class="bottom">
+                    <h2>Engenharias</h2>
+                    <div class="divider"></div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, incididunt ut labore et aliqua. </p>
+                </div>
+            </div>
+
+            <div class="card" id="tecnologias">
+                <div class="top">
+                    <a href="./subpages/courses/tecnologias.html"></a>
+                </div>
+              
+                <div class="bottom">
+                  <h2>Tecnologias</h2>
+                  <div class="divider"></div>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, incididunt ut labore et aliqua. </p>
+                </div>
+            </div>
+
+            <div class="card" id="bacharelados">
+              <div class="top">
+                <a href="./subpages/courses/bacharelados.html"></a>
+              </div>
+              <div class="bottom">
+                  <h2>Bacharelados</h2>
+                  <div class="divider"></div>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, incididunt ut labore et aliqua. </p>
+              </div>
+            </div>
+
+            <div class="card" id="tecnicos">
+              <div class="top">
+                  <a href="./subpages/courses/tecnicos.html"></a>
+              </div>
+              <div class="bottom">
+                  <h2>Tecnicos</h2>
+                  <div class="divider"></div>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, incididunt ut labore et aliqua. </p>
+              </div>
+            </div>
+
+            <div class="card" id="licenciaturas">
+              <div class="top">
+                <a href="./subpages/courses/licenciaturas.html"></a>
+              </div>
+              <div class="bottom">
+                  <h2>Licenciaturas</h2>
+                  <div class="divider"></div>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, incididunt ut labore et aliqua. </p>
+              </div>
+            </div>
+
+            <div class="card" id="ensinoMedio">
+              <div class="top">
+                <a href="#"></a>
+              </div>
+              <div class="bottom">
+                  <h2>Ensino Médio</h2>
+                  <div class="divider"></div>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, incididunt ut labore et aliqua. </p>
+              </div>
+            </div>
+      
+        </section>
+    </main>
+
+      <footer>
+        <div class="topContainer">
+          <section class="logo">
+              <h1>IFSP</h1>
+          </section>
+          <section class="about">
+            <h2>SOBRE</h2>
+              <a href="#">Sobre nós</a><br>
+              <a href="#">Acessibilidade</a>
+          </section>
+          <section class="services">
+            <h2>SERVIÇOS</h2>
+            <nav>
               <ul>
-                <li><a href="./iframes/courses/tecnicos.html" target="iframe">Técnicos</a></li>
-                <li><a href="./iframes/courses/tecnologias.html" target="iframe">Tecnologias</a></li>
-                <li><a href="./iframes/courses/engenharias.html" target="iframe">Engenharias</a></li>
-                <li><a href="./iframes/courses/licenciaturas.html" target="iframe">Licenciaturas</a></li>
-                <li><a href="./iframes/courses/bacharelados.html" target="iframe">Bacharelados</a></li>
-                <li><a href="./iframes/courses/posGraduacao.html" target="iframe">Pós-Graduação</a></li>
+                <li><a href="#" target="iframe">Como chegar</a></li>
+                <li><a href="#" target="iframe">Processos seletivos</a></li>
+                <li><a href="#" target="iframe">Calendários Acadêmicos</a></li>
+                <li><a href="#" target="iframe">Ouvidoria</a></li>
               </ul>
           </nav>
-      </aside>
-
-      <main>
-        <iframe src="./iframes/courses/tecnicos.html" width="100%" height="800px" name="iframe"></iframe>
-      </main>
-
-    <footer>
-
-    </footer>
+          </section>
+          <section class="courses">
+            <h2>CURSOS</h2>
+              <nav>
+                <ul>
+                  <li><a href="./pages/subpages/courses/tecnicos.html" target="iframe">Técnicos</a></li>
+                  <li><a href="./pages/subpages/courses/tecnologias.html" target="iframe">Tecnologias</a></li>
+                  <li><a href="./pages/subpages/courses/engenharias.html" target="iframe">Engenharias</a></li>
+                  <li><a href="./pages/subpages/courses/licenciaturas.html" target="iframe">Licenciaturas</a></li>
+                  <li><a href="./pages/subpages/courses/bacharelados.html" target="iframe">Bacharelados</a></li>
+                  <li><a href="./pages/subpages/courses/posGraduacao.html" target="iframe">Pós-Graduação</a></li>
+                </ul>
+            </nav>
+          </section>
+          <section class="form">
+              <h2>PORTAL DE NOTICIAS</h2>
+                <form action="">
+                  <label for="name" class="sr-only">Insira seu Nome</label>
+                  <input type="text" name="name" placeholder="Insira seu Nome">
+  
+                  <label for="email" class="sr-only">Insira seu Email</label>
+                  <input type="email" name="email" placeholder="Insira seu Email">
+  
+                  <input type="submit" value="Assinar">
+                </form>
+          </section>
+  
+        </div>
+        <!-- bottom section -->
+        <section class="social-midias">
+          <div class="container">
+            <h4>©Instituto Federal de São Paulo</h4>
+            <div>
+                <a href="mailto:cra.sbv@ifsp.edu.br" target="_blank" ><img src="../src/images/iconMail.svg" alt=""></a>
+                <a href="https://www.youtube.com/c/ifspsbv" target="_blank" ><img src="../src/images/iconYoutube.svg" alt=""></a>
+                <a href="https://www.facebook.com/ifspsbv" target="_blank" ><img src="../src/images/iconFacebook.svg" alt=""></a>            
+            </div>
+          </div>
+           
+        </section>
+      </footer>
 
   </body>
 </html>

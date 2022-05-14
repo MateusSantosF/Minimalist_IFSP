@@ -1,0 +1,89 @@
+
+
+main section{
+    width: 100%;
+    padding: 5%;
+    flex-wrap: wrap;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    cursor: pointer;
+    color: white;
+    margin-bottom: 2%;
+    flex-basis: 280px;
+    height: max-content;
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.3);
+}
+
+.card a{
+    display: block;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    text-decoration: none;
+}
+
+.card .divider{
+    margin: 0 auto;
+    width: 60%;
+    height: 1px;
+    background-color: white;
+}
+
+.card .top{
+    height: 220px;
+}
+
+.card .top img{
+    width: 300px;
+    overflow: hidden;
+}
+.card .bottom{
+    text-align: center;
+    width: 100%;
+    height: 30%;
+    background-color: var(--green);
+}
+.card .bottom h2{
+    padding: 5px;
+}
+
+.card .bottom p{
+    padding: 5%;
+    text-align: justify;
+}
+/* SET Images */
+
+.card#engenharias .top{
+    background-image: url("/../src/images/cards/engenharias.jpeg");
+    background-size: cover;
+}
+.card#tecnologias .top{
+    background-image: url("/../src/images/cards/tecnologias.jpeg");
+    background-size: cover;
+}
+
+.card#bacharelados .top{
+    background-image: url("/../src/images/cards/bacharelados.jpg");
+    background-size: cover;
+}
+
+.card#tecnicos .top{
+    background-image: url("/../src/images/cards/tecnicos.jpg");
+    background-size: cover;
+}
+
+.card#licenciaturas .top{
+    background-image: url("/../src/images/cards/licenciaturas.jpg");
+    background-size: cover;
+}
+
+.card#ensinoMedio .top{
+    background-image: url("/../src/images/cards/ensinoMedio.jpeg");
+    background-size: cover;
+}
