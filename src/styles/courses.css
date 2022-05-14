@@ -60,30 +60,30 @@ main section{
 /* SET Images */
 
 .card#engenharias .top{
-    background-image: url("/../src/images/cards/engenharias.jpeg");
+    background-image: url("../images/cards/engenharias.jpeg");
     background-size: cover;
 }
 .card#tecnologias .top{
-    background-image: url("/../src/images/cards/tecnologias.jpeg");
+    background-image: url("../images/cards/tecnologias.jpeg");
     background-size: cover;
 }
 
 .card#bacharelados .top{
-    background-image: url("/../src/images/cards/bacharelados.jpg");
+    background-image: url("../images/cards/bacharelados.jpg");
     background-size: cover;
 }
 
 .card#tecnicos .top{
-    background-image: url("/../src/images/cards/tecnicos.jpg");
+    background-image: url("../images/cards/tecnicos.jpg");
     background-size: cover;
 }
 
 .card#licenciaturas .top{
-    background-image: url("/../src/images/cards/licenciaturas.jpg");
+    background-image: url("../images/cards/licenciaturas.jpg");
     background-size: cover;
 }
 
 .card#ensinoMedio .top{
-    background-image: url("/../src/images/cards/ensinoMedio.jpeg");
+    background-image: url("../images/cards/ensinoMedio.jpeg");
     background-size: cover;
 }
