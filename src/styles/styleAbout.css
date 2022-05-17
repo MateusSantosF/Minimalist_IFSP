@@ -1,0 +1,57 @@
+header{
+    align-items: center;
+    justify-content: space-around;
+    background-color: 'black';
+    font-weight: normal;
+    font-size: 1.15rem;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+article{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 25px;
+    
+}
+main{
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: justify;
+}
+.portals{
+    display:flex;
+    flex-direction: row;
+    height: 65px;
+    width: 500px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+h2{
+    padding-top:8px;
+    padding-bottom: 8px;
+}
+.institutionSJBV{
+    padding-bottom: 20px;
+}
+.textPortals{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+}
+.portalsLink{
+    color: rgb(22, 59, 10);
+    font-size: 20px; 
+    text-decoration:none;
+    text-align: center;
+    font-weight: bold;
+    
+}
+.textPortals p{
+    padding-right: 15px;
+}
+.institutionSJBV a{
+    color: rgb(22, 59, 10);
+    font-weight: bold;
+}
