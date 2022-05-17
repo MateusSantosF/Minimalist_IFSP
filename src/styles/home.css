@@ -1,0 +1,18 @@
+
+main{
+    height: 100vh;
+}
+main .background-image{
+    height: 100vh;
+    background-image: url("file:///home/aluno/Desktop/Minimalist_IFSP/src/images/backgroundHome.jpg");
+    background-size: cover;
+    position: relative;
+  }
+
+main .container{
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+
+}

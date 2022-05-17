@@ -20,12 +20,17 @@ main section{
 }
 
 .card a{
+    text-decoration: none;
+    color:white;
+}
+
+.card .top a{
     display: block;
     height: 100%;
     width: 100%;
     background-color: black;
     opacity: 0.5;
-    text-decoration: none;
+    
 }
 
 .card .divider{
