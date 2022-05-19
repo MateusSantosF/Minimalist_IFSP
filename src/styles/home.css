@@ -4,7 +4,7 @@ main{
 }
 main .background-image{
     height: 100vh;
-    background-image: url("file:///home/aluno/Desktop/Minimalist_IFSP/src/images/backgroundHome.jpg");
+    background-image: url("../images/backgroundHome.jpg");
     background-size: cover;
     position: relative;
   }
