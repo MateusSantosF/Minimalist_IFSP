@@ -59,6 +59,7 @@
      position: relative;
      padding: 20px 0px;
      display: flex;
+     margin-right: 10px;
     
       
  }
@@ -146,7 +147,12 @@
          
  }
 
- input, textarea {
+ .contactForm .field input[type = "submit"]:hover{
+
+    background-color: var(--green);
+ }
+
+.contactForm input, .contactForm textarea {
     background: transparent;
     border: none;
  }
