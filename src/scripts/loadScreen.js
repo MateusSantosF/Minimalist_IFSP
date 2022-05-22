@@ -3,7 +3,7 @@ var loadScreenDiv
 var loadScreen
 document.addEventListener("DOMContentLoaded", function(e) {
 
-    timer = setTimeout('closeLoadScreen()', 3000)
+    timer = setTimeout('closeLoadScreen()', 2000)
     loadScreenDiv = document.getElementById('loader-container')
     loadScreen = document.getElementById('loader')
 });

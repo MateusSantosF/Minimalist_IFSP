@@ -1,0 +1,27 @@
+
+
+header{
+    display: flex;
+    margin: 0 auto;
+    width: 80vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3rem;
+}
+
+header h2{
+    padding-bottom: 2rem;
+    font-size: 2em;
+}
+
+main{
+    margin: 0 auto;
+    width: 80vw;
+    min-height: 30vh;
+}
+
+main nav{
+    padding: 3rem;
+    font-size: 1.1rem;
+}

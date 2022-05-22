@@ -17,6 +17,11 @@ main section{
     flex-basis: 280px;
     height: max-content;
     box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.3);
+
+}
+
+.card:hover{
+    transform: scale(1.05);
 }
 
 .card a{
@@ -29,8 +34,7 @@ main section{
     height: 100%;
     width: 100%;
     background-color: black;
-    opacity: 0.5;
-    
+    opacity: 0.5;    
 }
 
 .card .divider{
@@ -55,7 +59,7 @@ main section{
     background-color: var(--green);
 }
 .card .bottom h2{
-    padding: 5px;
+    padding: 20px;
 }
 
 .card .bottom p{
