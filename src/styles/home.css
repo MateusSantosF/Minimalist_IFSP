@@ -1,7 +1,7 @@
 
 main{
     height: min-content;
-    width: 100%;   
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -14,7 +14,7 @@ main .background-image{
     text-align: center;
     background-image: url("../images/backgroundHome.jpg");
     background-size: cover;
-    filter: sepia(30%) grayscale(40%); ;
+    filter: sepia(50%) grayscale(40%); ;
     color: var(--green);
     border-radius: 25%;
 }
