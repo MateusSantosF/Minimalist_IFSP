@@ -26,9 +26,10 @@
 
 .contact .content h2 {
 
-    font-size: 36px;
+    font-size: 2em;
     font-weight: 500;
     color: darkgreen;
+    padding-bottom: 10px;
 }
 
 .contact .content p {
@@ -43,6 +44,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 
 }
 
@@ -68,7 +70,7 @@
 
      display: flex;
      margin-left: 20px;
-     font-size: 16px;
+     font-size: 1em;
      color: black;
      flex-direction: column;
  }
@@ -88,7 +90,7 @@
 
  .contactForm h2 {
 
-     font-size: 30px;
+     font-size: 1.5em;
      color: var(--green);
      font-weight: 500;
  }
@@ -105,7 +107,7 @@
 
      width: 100%;
      padding: 5px 0;
-     font-size: 16px;
+     font-size: 1em;
      margin: 10px 0;
      border: none;
      border-bottom: 2px solid black;
@@ -118,7 +120,7 @@
      position: absolute;
      left: 0;
      padding: 5px 0;
-     font-size: 16px;
+     font-size: 1em;
      margin: 10px 0;
      pointer-events: none;
      transition: 0.5s;
@@ -131,7 +133,7 @@
  .contactForm .field textarea:valid ~ span{
 
      color: #e91e63;
-     font-size: 12px;
+     font-size: 0.8em;
      transform: translateY(-20px)
  }
 
@@ -143,7 +145,7 @@
      border: none;
      cursor: pointer;
      padding: 10px;
-     font-size: 16px;
+     font-size: 1em;
          
  }
 
@@ -163,9 +165,7 @@
         padding: 50px;
     }
 
-    .container {
-        flex-direction: column;
-    }
+   
 
     .container  .contactInfo {
         margin-bottom: 40px;
@@ -173,6 +173,11 @@
     }
     .container .contactInfo, .contactForm {
         width: 100%;
+    }
+
+    .container .contactInfo {
+        border: none;
+    
     }
 
  }
